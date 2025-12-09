@@ -143,7 +143,7 @@ const features: FeaturesType[] = [
 			"With our state of the art AI, you can generate a batch of images within 10 seconds with absolutely no effort.",
 		content: (
 			<div className="relative">
-				<div className="-rotate-[10deg]">
+				<div className="-rotate-10">
 					<Image
 						src="https://picsum.photos/500"
 						alt="car"
@@ -152,7 +152,7 @@ const features: FeaturesType[] = [
 						className="rounded-lg"
 					/>
 				</div>
-				<div className="absolute inset-0 rotate-[10deg] transform">
+				<div className="absolute inset-0 rotate-10 transform">
 					<Image
 						src="https://picsum.photos/500"
 						alt="car 2"

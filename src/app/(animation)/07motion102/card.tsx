@@ -39,7 +39,7 @@ export const Card = () => {
 							ease: "easeInOut",
 						}}
 						className={cn(
-							"w-72 min-h-[26rem] h-[30rem] bg-white rounded-xl",
+							"w-72 min-h-104 h-120 bg-white rounded-xl",
 							"shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)]",
 							"p-4 flex flex-col"
 						)}
@@ -87,7 +87,7 @@ export const Card = () => {
 								className="absolute inset-0 h-full w-full bg-white border border-neutral-200 rounded-lg divide-y divide-neutral-200"
 							>
 								<div className="flex gap-2 p-4">
-									<div className="w-7 h-7 flex-shrink-0 bg-gradient-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
+									<div className="w-7 h-7 shrink-0 bg-linear-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
 										<IconMessage className="h-4 w-4 text-neutral-600" />
 									</div>
 									<div className="flex flex-col">
@@ -101,7 +101,7 @@ export const Card = () => {
 								</div>
 
 								<div className="flex gap-2 p-4">
-									<div className="w-7 h-7 flex-shrink-0 bg-gradient-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
+									<div className="w-7 h-7 shrink-0 bg-linear-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
 										<Icon360View className="h-4 w-4 text-neutral-600" />
 									</div>
 									<div className="flex flex-col">
@@ -115,7 +115,7 @@ export const Card = () => {
 								</div>
 
 								<div className="flex gap-2 p-4">
-									<div className="w-7 h-7 flex-shrink-0 bg-gradient-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
+									<div className="w-7 h-7 shrink-0 bg-linear-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
 										<IconHours24 className="h-4 w-4 text-neutral-600" />
 									</div>
 									<div className="flex flex-col">
@@ -129,7 +129,7 @@ export const Card = () => {
 								</div>
 
 								<div className="flex gap-2 p-4">
-									<div className="w-7 h-7 flex-shrink-0 bg-gradient-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
+									<div className="w-7 h-7 shrink-0 bg-linear-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
 										<Icon3dCubeSphere className="h-4 w-4 text-neutral-600" />
 									</div>
 									<div className="flex flex-col">
@@ -143,7 +143,7 @@ export const Card = () => {
 								</div>
 
 								<div className="flex gap-2 p-4 items-center justify-center">
-									<div className="w-4 h-4 flex-shrink-0 bg-gradient-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
+									<div className="w-4 h-4 shrink-0 bg-linear-to-br shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.4)] bg-white rounded-md flex items-center justify-center">
 										<IconPlus className="h-3 w-3 text-neutral-600" />
 									</div>
 									<div className="flex flex-col">

@@ -226,7 +226,7 @@ export const Modal = ({ current, onClose }: ModalProps) => {
 					transition={{
 						delay: 0.3,
 					}}
-					className="h-40 overflow-auto pb-10 [mask-image:linear-gradient(to_top,transparent,black_40%)]"
+					className="h-40 overflow-auto pb-10 mask-[linear-gradient(to_top,transparent,black_40%)]"
 				>
 					{current.content()}
 				</motion.div>

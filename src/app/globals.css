@@ -1,31 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer utilities {
-	/* Act as a border */
-	.card-wrapper {
-		@apply relative bg-gradient-to-b from-slate-700 to-slate-800 rounded-xl overflow-hidden;
-	}
-
-	/* Gradient */
-	.card-wrapper::before {
-		background: conic-gradient(
-			rgba(244, 114, 182, 0.4) 0deg,
-			rgba(192, 132, 252, 0.4) 0deg,
-			transparent 80deg
-		);
-		@apply content-['s'] absolute size-[150%] top-[-25%] left-[-25%]   animate-border-spin;
-	}
-	.card-content {
-		@apply size-[calc(100%-4px)] top-[2px] left-[2px] bg-gradient-to-b from-slate-800 to-slate-900 rounded-xl absolute;
-	}
-		
-	
+@theme {
+    --card-wrapper: relative bg-linear-to-b from-slate-700 to-slate-800
+        rounded-xl overflow-hidden;
 }
 
+@layer utilities {
+    .card-wrapper::before {
+        background: conic-gradient(
+            rgba(244, 114, 182, 0.4) 0deg,
+            rgba(192, 132, 252, 0.4) 0deg,
+            transparent 80deg
+        );
+        @apply content-[''] absolute size-[150%] top-[-25%] left-[-25%];
+    }
 
-/* 
+    .card-content {
+        @apply size-[calc(100%-4px)] top-[2px] left-[2px] bg-linear-to-b
+      from-slate-800 to-slate-900 rounded-xl absolute;
+    }
+}
+
+/*
 
 
 .map-image {
@@ -37,19 +33,19 @@
 			 url("/img/framer-motion-map/map.webp");
 		  background-size: 300%;
 		}
-	 
+
 		.map-image:nth-child(1) {
 		  background-position:
 			 0% 0%,
 			 0%;
 		}
-	 
+
 		.map-image:nth-child(2) {
 		  background-position:
 			 0% 33.3%,
 			 50%;
 		}
-	 
+
 		.map-image:nth-child(3) {
 		  background-position:
 			 0% 66.6%,

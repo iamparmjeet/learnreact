@@ -64,7 +64,7 @@ const FoldableMap = () => {
                   "--brightness": centerBrightness,
                 } as MotionStyle
               }
-              className="map-image brightness-[--brightness]"
+              className="map-image brightness-(--brightness)"
             />
             <motion.div
               style={{ x: xRightSection, skewY: "1deg" }}

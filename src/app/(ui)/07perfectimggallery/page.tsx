@@ -16,7 +16,7 @@ const ImgBucket = [
 export default function PerfectImgGalleryPage() {
   return (
     <div className='mx-auto bg-slate-100'>
-      <section className='container [columns:300px_4]'>
+      <section className='container columns-[300px_4]'>
         {ImgBucket.map((img, index) => (
           <img key={index} src={img} alt="" className='mb-4' />
         ))}

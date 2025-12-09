@@ -48,7 +48,7 @@ export default function SideNav() {
 					"border-r transition-all duration-300 ease-in-out transform hidden sm:flex h-full  bg-accent"
 				)}
 			>
-				<aside className="flex h-full flex-col w-full break-words px-4   overflow-x-hidden columns-1">
+				<aside className="flex h-full flex-col w-full wrap-break-word px-4   overflow-x-hidden columns-1">
 					{/* Top */}
 					<div className="mt-4 relative pb-2 ">
 						<div className="flex flex-col space-y-1">

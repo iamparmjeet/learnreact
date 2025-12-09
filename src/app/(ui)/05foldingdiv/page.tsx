@@ -110,7 +110,7 @@ const LogoRolodex = ({ items }) => {
             style={{
                transform: 'translateZ(1px)'
             }}
-            className="absolute left-0 right-0 top-1/2 z-[999999999] -translate-y-1/2 border-t-2 border-neutral-800"
+            className="absolute left-0 right-0 top-1/2 z-999999999 -translate-y-1/2 border-t-2 border-neutral-800"
          />
 		</div>
 	);

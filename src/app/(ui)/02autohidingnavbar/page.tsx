@@ -10,7 +10,7 @@ import { useState, useRef } from 'react'
 
 export default function AutoHideNavbar() {
   return (
-    <div className="min-h-[300vh] bg-gradient-to-b from-[#4e43479f] to-[#060606]">
+    <div className="min-h-[300vh] bg-linear-to-b from-[#4e43479f] to-[#060606]">
       <Nav />
     </div>
   )
